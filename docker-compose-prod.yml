@@ -1,0 +1,6 @@
+version: '3.3'
+services:
+ backend:
+   image: nefelibata0531/234-deploylab-backend:latest
+   ports:
+     - "9999:8080"
